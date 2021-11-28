@@ -3,10 +3,10 @@
 # Path: imagetokattack.sh
 #!/bin/sh
 # Install dependencies
-#sudo apt install wget php-cli php-zip unzip -y \
-#wget -O composer-setup.php https://getcomposer.org/installer \
-#sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
-#sudo composer self-update # Update composer
+# sudo apt install wget php-cli php-zip unzip -y \
+# wget -O composer-setup.php https://getcomposer.org/installer \
+# sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+# sudo composer self-update # Update composer
 composer -V # Check Composer version
 # Phar Disabler
 # Build the project

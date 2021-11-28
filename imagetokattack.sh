@@ -10,6 +10,9 @@
 composer -V # Check Composer version
 # Phar Disabler
 # Build the project
+# openvpn3 session-start -c htb && openvpn3 session-stats -c htb && openvpn3 sessions-list
+# openvpn3 session-manage --config htb --disconnect
+# curl http://imagetok.htb:32680
 sh build_docker.sh
 php - m | grep phar
 php -r "ini_set('phar.readonly',0);print(ini_get('phar.readonly'));"

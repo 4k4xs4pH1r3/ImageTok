@@ -213,7 +213,7 @@ function getOptValue($opt, $argv, $default)
 /**
  * Checks that user-supplied params are valid
  *
- * @param mixed $installDir The required istallation directory
+ * @param mixed $installDir The required installation directory
  * @param mixed $version The required composer version to install
  * @param mixed $cafile Certificate Authority file
  *
@@ -1064,7 +1064,7 @@ class Installer
     /**
      * Verifies the signature of the downloaded phar
      *
-     * @param string $version The composer versione
+     * @param string $version The composer version downloaded
      * @param string $signature The downloaded digital signature
      * @param string $file The temp phar file
      *

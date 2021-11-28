@@ -9,7 +9,7 @@ from urllib import parse
 
 def get_args():
 	if len(argv) != 3:
-		print('Usage: ', argv[0], 'http://ip:port <file>') # Example: http://imagetok.htb:30010
+		print('Usage: ', argv[0], 'http://ip:port <file>') # Example: http://imagetok.htb:32680
 		exit(1)
 	return argv[1], argv[2]
 

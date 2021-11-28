@@ -8,6 +8,7 @@
 # sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 # sudo composer self-update # Update composer
 composer -V # Check Composer version
+# docker ps --filter status=running
 # Phar Disabler
 # Build the project
 # openvpn3 session-start -c htb && openvpn3 session-stats -c htb && openvpn3 sessions-list

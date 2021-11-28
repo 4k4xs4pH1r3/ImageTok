@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../git/hub/d3c0d3rs"
 		}
 	],
 	"settings": {

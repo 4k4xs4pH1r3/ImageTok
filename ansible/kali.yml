@@ -1,0 +1,15 @@
+---
+- name: kali
+  hosts: x1
+  remote_user: root
+  # remote_user: user
+  # become: yes
+  # become_method: sudo  
+  tasks:
+    - name: Execute the df command
+      register: dfout
+      command: "apt install aptitude -y && aptitude install locales -y && locale-gen en_US.UTF-8 && localedef -i en_US -f UTF-8 en_US.UTF-8 && export LANGUAGE=en_US.UTF-8 && export LANG=en_US.UTF-8 && export LC_ALL=en_US.UTF-8 && locale-gen en_US.UTF-8 && apt-get update -y && apt-get full-upgrade -y && aptitude install wget -y && apt-get autoclean && apt-get clean cache && apt update -y && aptitude install kali-linux-default -y && apt-get full-upgrade -y"
+
+    - name: Display the config
+      debug:
+        msg: "The hostname is {{ ansible_net_hostname }} and the OS is {{ ansible_net_version }}"      

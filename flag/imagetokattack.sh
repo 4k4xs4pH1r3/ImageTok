@@ -12,6 +12,7 @@ composer -V # Check Composer version
 # Install Ansible and dependencies # https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html
 # apt-get install sshpass -y # Install sshpass
 # ansible x1 -m ping # Test connection
+# ansible-playbook -i x1 -u root -s -v kali.yml
 # Phar Disabler
 # Build the project
 # openvpn3 session-start -c htb && openvpn3 session-stats -c htb && openvpn3 sessions-list

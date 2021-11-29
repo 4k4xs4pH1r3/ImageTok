@@ -9,6 +9,9 @@
 # sudo composer self-update # Update composer
 composer -V # Check Composer version
 # docker ps --filter status=running
+# Install Ansible and dependencies # https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html
+# apt-get install sshpass -y # Install sshpass
+# ansible x1 -m ping # Test connection
 # Phar Disabler
 # Build the project
 # openvpn3 session-start -c htb && openvpn3 session-stats -c htb && openvpn3 sessions-list
